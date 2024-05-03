@@ -1,10 +1,10 @@
 {
     type Employee = {
         name: string;
-        id: number;
+        id: number | string;
         designation: string;
         bloodGroup?: string;
-        address:{
+        address: {
             presentAddress: string;
             permanentAddress?: string;
         }
@@ -12,7 +12,7 @@
 
     const employee1: Employee = {
         name: 'Mr.  Mehedi',
-        id: 1111,
+        id: 'em1111',
         designation: 'Jr Software Engineer',
         address:
         {
@@ -32,8 +32,8 @@
         }
     }
 
-    const presentAddress=employee1?.id;
-    const permanentAddress= employee2?.address?.permanentAddress?? 'No permanent address';
-    console.log({presentAddress});
-    console.log({permanentAddress});
+    const presentAddress = employee1?.id;
+    const permanentAddress = employee2?.address?.permanentAddress ?? 'No permanent address';
+    console.log({ presentAddress });
+    console.log({ permanentAddress });
 }
