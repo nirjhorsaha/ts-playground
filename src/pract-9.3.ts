@@ -13,4 +13,5 @@
       name: "Practice Object with Tuple",
     }
   );
+  console.log(simpleObjectWithTuple);
 }
