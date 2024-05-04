@@ -18,26 +18,25 @@
     }
 
     const developer1: Developer<programmingSkills, projects> = {
-        name: 'Alice Smith',
+        name: "Alice Smith",
         skills: {
-            frontEnd: 'TypeScript',
-            backEnd: 'Postgresql',
+            frontEnd: "TypeScript",
+            backEnd: "Postgresql",
         },
         experienceInYears: 5,
         projects: {
-            frontend: 'TypeScript Project',
-            backend: 'Postgresql Project'
-        }
-    }
-
+            frontend: "TypeScript Project",
+            backend: "Postgresql Project",
+        },
+    };
 
     const developer2: Developer<programmingSkills> = {
-        name: 'Bob Smith',
+        name: "Bob Smith",
         skills: {
-            frontEnd: 'React',
-            backEnd:'Mongodb'
+            frontEnd: "React",
+            backEnd: "Mongodb",
         },
         experienceInYears: 3,
-        githubUsername: 'bobTheboss'
-    }
+        githubUsername: "bobTheboss",
+    };
 }

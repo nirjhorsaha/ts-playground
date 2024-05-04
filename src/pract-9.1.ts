@@ -1,8 +1,8 @@
 {
     const createArray = (param: string): string[] => {
-        return [param]
-    }
+        return [param];
+    };
 
-    const simpleArray = createArray('Developer');
+    const simpleArray = createArray("Developer");
     console.log(simpleArray);
 }
