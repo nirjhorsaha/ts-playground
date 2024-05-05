@@ -1,13 +1,11 @@
 {
-  const newEmpoyee = <
+  const newEmployee = <
     T extends {
       name: string;
       salary: number;
       designation: string;
     }
-  >(
-    employee: T
-  ) => {
+  >(employee: T) => {
     const department = "Software Engineering";
     return {
       ...employee,
@@ -15,14 +13,14 @@
     };
   };
 
-  const employee1 = newEmpoyee({
+  const employee1 = newEmployee({
     name: "Alice",
     salary: 35000,
     designation: "Project Manager",
     age: 32,
   });
 
-  const employee2 = newEmpoyee({
+  const employee2 = newEmployee({
     name: "Bob",
     salary: 25000,
     designation: "Junior Developer",
