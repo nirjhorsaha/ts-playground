@@ -1,21 +1,21 @@
 {
-    type GenericArray<T> =Array<T>;
+    type GenericArray<T> = Array<T>;
 
-    interface User{
+    interface User {
         name: string;
         isMarried: boolean;
     }
 
-    const users: GenericArray<User>=[
+    const users: GenericArray<User> = [
         {
-            name: 'Mr Rasel',
+            name: "Mr Rasel",
             isMarried: true,
         },
         {
-            name: 'Mr Rabbi',
+            name: "Mr Rabbi",
             isMarried: true,
-        }
-    ]
+        },
+    ];
 
     console.log(users);
 }

@@ -6,7 +6,6 @@
 
     type EmployeeWithRole1 = Employee1 & { role: string }
 
-    
     const employee1 : EmployeeWithRole1 ={
         name: 'Rasel',
         id: 'em123',
