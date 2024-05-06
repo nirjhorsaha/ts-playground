@@ -14,5 +14,5 @@
         role: 'developer'
     };
 
-    console.log(employee2?.name);
+    console.log(employee2?.id);
 }

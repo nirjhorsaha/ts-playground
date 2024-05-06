@@ -3,14 +3,11 @@
         return [param1, param2];
     };
 
-    const simpleArrayWithTuple = createArrayWithTuple<string, number>(
-        "tuple",
-        123,
-    );
-    const simpleObjectWithTuple = createArrayWithTuple<
-        string,
-        { name: string }
-    >("objecttuple", {
+    const simpleArrayWithTuple = createArrayWithTuple<string, number>("tuple", 123);
+
+    const simpleObjectWithTuple = createArrayWithTuple<string, { name: string }>("objecttuple", {
         name: "Practice Object with Tuple",
     });
+
+    console.log(simpleObjectWithTuple);
 }
