@@ -41,11 +41,9 @@
         }
     }
 
-
-    const newCar = new Car('Toyota', 'Corolla', 2022);
-    const newBike = new Bike('Honda', 'CBR500R', 2020, 2);
+    const newCar = new Car("Toyota", "Corolla", 2022);
+    const newBike = new Bike("Honda", "CBR500R", 2020, 2);
 
     console.log(newBike);
     newBike.isStarting();
-
 }
