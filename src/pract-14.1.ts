@@ -1,8 +1,6 @@
 {
     class Developer {
-        name: string;
-        yearsOfExperience: number;
-        skills: string[];
+        name: string; yearsOfExperience: number; skills: string[];
         
         constructor(name: string, yearsOfExperience: number, skills: string[]) {
             this.name = name;
@@ -21,3 +19,4 @@
 
     AliceTheDeveloper.introduce();
 }
+

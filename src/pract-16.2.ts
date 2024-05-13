@@ -11,6 +11,7 @@
             this._runScored = _runScored;
             this._wicketTaken = _wicketTaken;
         }
+        
 
         get playerName(): string {
             return this.name;
@@ -37,14 +38,13 @@
         }
     }
 
+
     const player1 = new CricketPlayer("Bangladesh", "Mashrafi", 3000, 200);
     console.log(player1);
 
     player1.addWicket(10);
     console.log(`player1 taken ${player1.wicketTaken} wickets`);
 
-
     player1.name = "M B Mortuja";
     console.log(`player1 full name: ${player1.playerName}`);
-
 }
